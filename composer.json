@@ -1,0 +1,16 @@
+{
+    "name": "imtech/bot",
+    "description": "Projeto para enviar mensagens a partir de um bot",
+    "license": "mit",
+    "require": {
+        "telegram-bot/api": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app/"
+        },
+        "files": [
+            "../autobot/config/config.php"
+        ]
+    }
+}
